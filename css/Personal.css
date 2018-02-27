@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f9f4f4;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 509301 */
+  src: url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.eot');
+  src: url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.diva{
+	width: 100%;
+	height: 130px;
+	background-color: #131212;
+	color: white;
+}
+.diva .diva_v{
+	width: 90%;
+	height: 130px;
+	margin: 0 auto;
+}
+.diva .diva_v .diva_a{
+	float: left;
+	margin-top: 25px;
+}
+.diva .diva_v .diva_a img{
+	border-radius: 50%;
+}
+.diva .diva_v .diva_a span{
+	float: right;
+	margin-left: 15px;
+}
+.diva .diva_v .diva_a span .p1{
+	font-size: 25px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+.diva .diva_v .diva_a span .p2{
+	font-size: 14px;
+    background-color: #C0A16B;
+    width: 82px;
+    text-align: center;
+    border-radius: 2px;
+}
+.diva .diva_v .diva_a span .p2 .iconfont{
+	font-size: 14px;
+	margin-left: 4px;
+}
+.diva .diva_v .diva_b{
+	float: right;
+	background-color: #404040;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 40px;
+}
+.diva .diva_v .diva_b .iconfont{
+	font-size: 27px;
+	line-height: 40px;
+    /* text-align: center; */
+    margin-left: 6px;
+}
+.divb{
+	width: 100%;
+	height: 130px;
+	background-color: white;
+	
+}
+.divb .divb_v{
+	width: 93%;
+	height: 127px;
+	margin: 0 auto;
+}
+.divb .divb_v .divb_a{
+	width: 93%;
+	height: 45px;
+	margin: 0 auto;
+	border-bottom: 2px solid #eae7e7;
+	line-height: 45px;
+	color: #404040;
+}
+.divb .divb_v .divb_a p{
+	color: #404040;
+    font-size: 15px;
+    float: left;
+}
+.divb .divb_v .divb_a .iconfont{
+	float: right;
+	font-size: 15px;
+}
+.divb .divb_v .divb_b{
+	width: 100%;
+	height: 82px;
+}
+.divb .divb_v .divb_b a{
+	float: left;
+	width: 20%;
+	text-decoration: none;
+	position: relative;
+	height: 82px;
+}
+.divb .divb_v .divb_b a p{
+	font-size: 13px;
+    color: #404040;
+    text-align: center;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.divb .divb_v .divb_b a .iconfont{
+	font-size: 32px;
+	color: #404040;
+	margin-left: 23%;
+    /* margin-top: 40px; */
+    line-height: 65px;
+}
+.divc{
+	width: 100%;
+	height: 520px;
+	background-color: white;
+	margin-bottom: 10px;
+	background-color: #f9f4f4;
+}
+.divc .divc_c{
+	width: 100%;
+	height: 438px;
+	background-color: white;
+}
+.divc .divc_v{
+	width: 93%;
+	height: 127px;
+	margin: 0 auto;
+}
+.divc .divc_v .divc_a{
+	width: 93%;
+	height: 45px;
+	margin: 0 auto;
+	border-bottom: 2px solid #eae7e7;
+	line-height: 45px;
+	color: #404040;
+	margin-top: 10px;
+}
+.divc .divc_v .divc_a p{
+	color: #404040;
+    font-size: 15px;
+    float: left;
+}
+.divc .divc_v .divc_b,.divc .divc_v .divd_b{
+	width: 100%;
+	height: 100px;
+}
+.divc .divc_v .divc_b{
+	border-bottom: 2px solid #eae7e7;
+}
+.divc .divc_v .divc_b a,.divc .divc_v .divd_b a{
+	float: left;
+	width: 25%;
+	text-decoration: none;
+	position: relative;
+	height: 98px;
+	text-align: center;
+}
+.divc .divc_v .divc_b a p,.divc .divc_v .divd_b a p{
+	font-size: 13px;
+    color: #404040;
+    text-align: center;
+    margin: 0 auto;
+    line-height: -60px;
+    margin-top: -15px;
+}
+
+.divc .divc_v .divc_b a .iconfont,.divc .divc_v .divd_b a .iconfont{
+	font-size: 32px;
+	color: #9a6912;
+    line-height: 80px;
+}
+.divc .divc_v .divd_b{
+	
+}
+.divc .divc_v .divd_b a .iconfont{
+	color: #2985a0;
+}
+.divd{
+	width: 100%;
+	height: 82px;
+	background-color: white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 2px solid #eae7e7;
+}
+.divd .divd_v{
+	width: 93%;
+	height: 82px;
+	margin: 0 auto;
+}
+.divd .divd_v .divd_b{
+	width: 100%;
+	height: 82px;
+}
+.divd .divd_v .divd_b a{
+	float: left;
+	width: 20%;
+	text-decoration: none;
+	position: relative;
+	height: 82px;
+	text-align: center;
+}
+.divd .divd_v .divd_b a p{
+	font-size: 13px;
+    color: #404040;
+    text-align: center;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.divd .divd_v .divd_b a .iconfont{
+	font-size: 28px;
+	color: #404040;
+    line-height: 65px;
+}

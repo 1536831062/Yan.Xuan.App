@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 509301 */
+  src: url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.eot');
+  src: url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.diva{
+	width: 100%;
+    height: 73px;
+    border-bottom: 2px solid #eae7e7;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.diva .diva_v{
+	width: 93%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #f9f4f4;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+.diva .diva_v input{
+	width: 93%;
+	height: 35px;
+	line-height: 35px;
+	background-color: #f9f4f4;
+	margin-top: 10px;
+	border: none;
+	margin-left: 15px;
+}
+.divb{
+	width: 20%;
+    height: 570px;
+    border-right: 2px solid #eae7e7;
+    margin-top: 74px;
+    float: left;
+    overflow-y: scroll;
+}
+.divb .divb_v{
+	width: 100%;
+	height: 670px;
+	margin: 0 auto;
+}
+.divb .divb_v a{
+	width:94%;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #404040;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.divb .divb_v .divb_a{
+	margin-top: 10px;
+}
+.divd{
+	width: 100%;
+	height: 82px;
+	background-color: white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 2px solid #eae7e7;
+}
+.divd .divd_v{
+	width: 93%;
+	height: 82px;
+	margin: 0 auto;
+}
+.divd .divd_v .divd_b{
+	width: 100%;
+	height: 82px;
+}
+.divd .divd_v .divd_b a{
+	float: left;
+	width: 20%;
+	text-decoration: none;
+	position: relative;
+	height: 82px;
+	text-align: center;
+}
+.divd .divd_v .divd_b a p{
+	font-size: 13px;
+    color: #404040;
+    text-align: center;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.divd .divd_v .divd_b a .iconfont{
+	font-size: 28px;
+	color: #404040;
+    line-height: 65px;
+}
+.divb_c .divb_b{
+	width: 79%;
+	height: 500px;
+	margin-top: 74px;
+	float: right;
+}
+.divb_c .divb_b .divb_v{
+	width: 93%;
+	margin: 0 auto;
+	position: relative;
+}
+.divb_c .divb_b .divb_v .action{
+	height: 500px;
+	margin: 0 auto;
+	overflow-y: scroll;
+}
+.divb_c .divb_b .divb_v .action .div_top{
+	width: 53%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+}
+.divb_c .divb_b .divb_v .action .div_top span{
+	background-color: white;
+    line-height: -50px;
+    font-size: 13px;
+    line-height: 30px;
+    background-color: white;
+}
+.divb_c .divb_b .divb_v .action a{
+	width: 33.3333%;
+	height: 100px;
+	float: left;
+	text-align: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #404040;
+    font-size: 14px;
+}
+.divb_c .divb_b .divb_v .action .div_top2 img{
+	border-radius: 50%;
+}
+.divb_c .divb_b .divb_v .action a p{
+	margin-top: 10px;
+}
+.divb_c .div2_a{
+	height: 20px;
+    border-bottom: 2px solid #eae7e7;
+}
+.divb_c .div2_b{
+	margin-top: 20px;
+}
+.divb_c .divb .divb_v .curr{
+	border-left: 4px solid rgb(234, 78, 78);
+	color: rgb(234, 78, 78);
+}

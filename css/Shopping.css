@@ -1,0 +1,124 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #eae7e7;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 509301 */
+  src: url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.eot');
+  src: url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_509301_0cmmiwyyp0o4j9k9.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}.shopping{
+	width: 100%;
+	height: 170px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.shopping .shopping_a{
+	height: 40px;
+	border-bottom: 2px solid #eae7e7;
+	background-color: white;
+	font-size: 22px;
+	color: #404040;
+	text-align: center;
+}
+.shopping .shopping_a .div_shopping{
+	width: 93%;
+    height: 42px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 42px;
+}
+.shopping .shopping_a .div_shopping a{
+	text-decoration: none;
+    color: #404040;
+    font-size: 15px;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+.shopping .shopping_b{
+	height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    color: #D58512;
+    background-color: #f9f0c4;
+}
+.shopping .shopping_b .div_shopping{
+	width: 93%;
+    height: 40px;
+    margin: 0 auto;
+}
+.shopping .shopping_b .div_shopping p{
+	float: left;
+}
+.top{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+}
+.top .top_a{
+	width: 93%;
+	height: 70px;
+	margin: 0 auto;
+}
+.top .top_a a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #404040;
+}
+.top .top_a span{
+	display: block;
+}
+.top .top_a .top_left{
+	float: left;
+	width: 81%;
+	text-align: left;
+	position: relative;
+}
+.top .top_a .top_left .diva{
+	float: left;
+    width: 29%;
+    height: 25px;
+    color: #D58512;
+    border: 1px solid #D58512;
+    line-height: 25px;
+    margin-top: 18px;
+    text-align: center;
+    border-radius: 3px;
+}
+.top .top_a .top_left .divb{
+	float: left;
+    width: 65%;
+    margin-top: 18px;
+    margin-left: px;
+    margin-left: 7px;
+}
+.top .top_a .top_right{
+	float: right;
+    width: 15%;
+    text-align: right;
+    border-left: 2px solid #eae7e7;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+.top .top_a .iconfont{
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
